@@ -1,0 +1,29 @@
+Observações do curso: 
+
+1-Aula 
+
+ Alert é BLOCANTE, significa que o script ele é interpretado de cima para baixo e só permite a sequência da execução, quando o script for executado.
+ 
+ Resolução: Digite comando: Ctrl + shift + J e utilize o navegador de sua preferência e através dele, utilize o console.
+ 
+ 2-Aula
+ 
+    O JavaScript é implicatamente tipado, não precisa dizer o tipo da variável para ele.
+    Para descobrir o tipo da variável digite typeof no console do navegador ele exibe o tipo.
+    No Javascript number representa todos os tipos númericos (int, long, double, float).
+    Dinamicamente tipica significa que o tipo da variável pode ser alterado dinamicamente o cast não é explicito.
+    Por que existe tipos então em Javascript ?
+    Devido ao tipo number.
+    
+    O JavaScript interpreta operação da esquerda para direita, sempre. Então é necessário indicar a precedência com parenteses.
+    
+ 3-Aula 
+    
+    DOM - No mundo Javascript não existe html e sim uma representação do modelo html, logo essa representação é chamada de DOM (Document Object Model) utilizando um objeto do Javascript. 
+    
+    Criando um Objeto: utilizar uma variável recebendo chave e valor, chave à esquerda, valor a direita.
+    
+    Existe duas formas de acessar os valores de um objeto, a primeira seria o Dot Notation e a outra com chaves e string. 
+    Ex: paciente.peso -> Dot Notation
+        paciente["peso"]; -> chave e string
+ 
